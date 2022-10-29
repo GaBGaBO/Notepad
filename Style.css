@@ -1,0 +1,74 @@
+*{
+  box-sizing:border-box;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  padding:0 5px;
+}
+
+.add{
+  position:absolute;
+  right:1px;
+  top:1px;
+  margin:30px  40px;
+  padding:5px;
+  border:none;
+  background-color: #9b2;
+  color:white;
+  font-size:18px;
+  cursor:pointer;
+  border-radius: 20px;
+}
+.fa-plus{
+  color:red;
+}
+
+.note{
+  position:absolute;
+  left:1px;
+  top:1px;
+  margin:50px 80px;
+  padding-top:5px;
+  background-color: white;  
+  box-shadow: 0px 4px 10px 4px rgba(0,0,0, 0.1);
+  width:400px;
+  height:400px;
+}
+.note .tool{
+  display: flex;
+  justify-content: flex-end;
+  background-color: #9b2;
+  margin-top: -4px;
+}
+.note .tool button{
+  font-size:18px;
+  margin:4px;
+  background-color: transparent;
+  color:#fff;
+  border:none;
+  outline:none;
+  cursor:pointer;
+}
+
+.note textarea{
+  width:100%;
+  height:400px;
+  font-family: inherit;
+  font-size:25px;
+  text-indent: 20px;
+  padding:40px;
+  color:black;
+  border:none;
+  outline:none;
+}
+.hidden{
+  display:none;
+}
+
+/* პრობლემა იმაში მდგომარეობს რომ ჩვენ არ შეგვიძლია რომ ნოუთში შიგნით რაიმე დავწეროთ :( */
